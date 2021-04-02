@@ -20,10 +20,13 @@ text_skin: orange # "default" (default), "dark", "forest", "ocean", "chocolate",
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : Wilden
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  Wilden was created with multiple goals in mind:
 
+  - Help provide a platform to promote small businesses, local farmers, musicians, artists and all other people who are out there trying to make the world a better place
+  - Raise awareness about regenerative farming practices and search for ways to improve global farming practices.
+  - Spread knowledge and information through open source technology and DIY projects
 
 ## => Language and Timezone
 ##############################
@@ -35,10 +38,10 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : James Putman
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
+  bio       : Jack of all trades, master of none
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
