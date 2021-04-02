@@ -1,21 +1,18 @@
 ---
 layout: article
-titles:
-  # @start locale config
-  en      : &EN       About
-  # @end locale config
+title: About
 header:
   theme: dark
-  #background: 'linear-gradient(135deg, rgb(34, 139, 87), rgb(139, 34, 139))'
-  background: linear-gradient(-90deg, rgba(34,147,96,1) 0%, rgba(121,9,72,1) 52%, rgba(255,200,0,1) 100%);200,0,1) 100%);
+  background: 'linear-gradient(135deg, rgb(34, 139, 87), rgb(139, 34, 139))'
+  #background: linear-gradient(-90deg, rgba(34,147,96,1) 0%, rgba(121,9,72,1) 52%, rgba(255,200,0,1) 100%);200,0,1) 100%);
 article_header:
   type: overlay
   theme: dark
   background_color: '#203028'
   background_image:
-    #gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    gradient: linear-gradient(-90deg, rgba(34,147,96,.4), rgba(121,9,72,.4) 52%, rgba(255,200,0,1));
-    src: /docs/assets/images/cover3.jpg
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    #gradient: linear-gradient(-90deg, rgba(34,147,96,.4), rgba(121,9,72,.4) 52%, rgba(255,200,0,1));
+    src: /docs/assets/images/cover5.jpg
 key: page-about
 ---
 
