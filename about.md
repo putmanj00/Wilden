@@ -3,32 +3,29 @@ layout: article
 titles:
   # @start locale config
   en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &FR       À propos
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
   # @end locale config
+header:
+  theme: dark
+  #background: 'linear-gradient(135deg, rgb(34, 139, 87), rgb(139, 34, 139))'
+  background: linear-gradient(-90deg, rgba(34,147,96,1) 0%, rgba(121,9,72,1) 52%, rgba(255,200,0,1) 100%);200,0,1) 100%);
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    #gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    gradient: linear-gradient(-90deg, rgba(34,147,96,.4), rgba(121,9,72,.4) 52%, rgba(255,200,0,1));
+    src: /docs/assets/images/cover3.jpg
 key: page-about
 ---
 
 ![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+ Wilden was created with multiple goals in mind:
+
+  - Help provide a platform to promote small businesses, local farmers, musicians, artists and all other people who are out there trying to make the world a better place
+  - Raise awareness about regenerative farming practices and search for ways to improve global farming practices.
+  - Spread knowledge and information through open source technology and DIY projects
 
 ```javascript
 (() => console.log('Hello, World!'))();
