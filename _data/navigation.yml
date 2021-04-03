@@ -49,6 +49,14 @@ header:
       # @end locale config
     url: /about.html
 
-  - titles:
-      en      : &EN       Art
-    url: /art.html
+  # - titles:
+  #     en      : &EN       Art
+  #   url: /art.html
+
+ docs-en: 
+  - titles: Art
+    children:
+      - title:  Art
+        url:    /art.html
+      - title:  Gardening
+        url:    /gardening.html
