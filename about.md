@@ -12,7 +12,7 @@ article_header:
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     #gradient: linear-gradient(-90deg, rgba(34,147,96,.4), rgba(121,9,72,.4) 52%, rgba(255,200,0,1));
-    src: /docs/assets/images/cover3.jpg
+    src: /cover3.jpg
 key: page-about
 ---
 
