@@ -1,3 +1,25 @@
+# header:
+#   - title:      Home
+#     url:        /test/
+#   - title:      Nature
+#     url:        /nature/regenerative-farming
+#     key:        nature
+#   - title:      Art
+#     url:        /nature.html
+#     key:        samples
+#   - title:      Music
+#     url:        /archive.html
+#   - title:      DIY
+#     url:        /about.html
+#   - title:      Blog
+#     url:        /art.html
+#   - title:      About
+#     url:        https://github.com/kitian616/jekyll-TeXt-theme
+#   - title:      Shop
+#     url:        https://github.com/kitian616/jekyll-TeXt-theme
+#   - title:      Docs
+#     url:        https://github.com/kitian616/jekyll-TeXt-theme
+
 header:
   - titles:
       # @start locale config
@@ -49,7 +71,35 @@ header:
       # @end locale config
     url: /about.html
 
-  - titles: art
-    children:
-     - titles: art
-      url: /art.html
+  - titles: 
+      en : &EN art
+    url:  /art/art.html
+
+  - titles:      Nature
+    url:        /nature/regenerative-farming
+    key:        nature
+
+  # nature:
+  # - title:      Gardening
+  #   children:
+  #     - title:  Regerative Farming
+  #       url:    /nature/regenerative-farming
+  #     - title:  Korean Natural Farming
+  #       url:    /nature/knf
+  #     - title:  JADAM
+  #       url:    /nature/jadam
+  # - title:      Customization
+  #   children:
+  #     - title:  Configuration
+  #       url:    /docs/en/configuration
+  #     - title:  Navigation
+  #       url:    /docs/en/navigation
+  #     - title:  Layouts
+  #       url:    /docs/en/layouts
+  #     - title:  Logo and Favicon
+  #       url:    /docs/en/logo-and-favicon
+  #     - title:  Authors
+  #       url:    /docs/en/authors
+  #     - title:  Internationalization
+  #       url:    /docs/en/i18n
+  
